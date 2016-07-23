@@ -1,7 +1,7 @@
 Program porttest;
 Uses inpout32;
 Var IsInpOutOpen,IsXP64:boolean;
-    Portnum:smallInt;
+    Portnum:word;
     Port_data:byte;
 
 Procedure Readloop;
