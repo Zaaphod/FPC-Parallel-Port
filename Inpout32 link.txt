@@ -1,1 +1,5 @@
+InpOut32
 http://www.highrez.co.uk/downloads/inpout32/
+
+Calling C library from Pascal
+http://www.freepascal.org/docs-html/ref/refsu72.html
