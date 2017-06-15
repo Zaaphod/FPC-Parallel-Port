@@ -2,10 +2,10 @@ Instructions:
 Download InpOut32 "Binaries only - x86 & x64 DLLs and libs."
 from http://www.highrez.co.uk/downloads/inpout32/
 Extract Acrchive
-go to InpOutBinaries_1501\Win32 folder in the archive even if you are on a 64bit machine.
-   Win32 is for the program, not the host computer
 run InstallDriver.exe
-Put inpout32.dll in the same folder as your Pascal files
+go to InpOutBinaries_1501\Win32 folder or InpOutBinaries_1501\Win64
+Put inpout32.dll in the same folder as your Pascal files if you will be compiling your program for Win32
+Put inpoutx64.dll in the same folder as your Pascal files if you will be compiling your program for Win64
 Compile
 Run
 *note parallel port is in hex, but demo program doesn't convert it for you.
@@ -14,7 +14,6 @@ Run
 
 InpOut32 Website:
 http://www.highrez.co.uk/
-
 
 Calling C library from Pascal
 http://www.freepascal.org/docs-html/ref/refsu72.html
